@@ -1,0 +1,11 @@
+                     precision    recall  f1-score   support
+
+       1_mengangguk       1.00      0.88      0.94        69
+2_mengangkat_tangan       0.80      0.99      0.88        75
+   3_menggunakan_hp       0.95      0.87      0.91        79
+  4_menopang_kepala       0.90      0.91      0.91        89
+         5_menunduk       0.84      0.78      0.81        73
+
+           accuracy                           0.89       385
+          macro avg       0.90      0.89      0.89       385
+       weighted avg       0.90      0.89      0.89       385

@@ -1,0 +1,65 @@
+======================================================================
+EXPERIMENT SUMMARY
+======================================================================
+
+[Teacher (VideoMAE)]
+  Config    : ep_max=800
+  Stopped   : ep 56
+  Test Acc  : 0.8924  P: 0.8923  R: 0.8914  F1: 0.8906
+  FPS       : 102.04 frames/s
+  Val Acc   : 0.9198
+
+[Student (MobileViT) no KD]
+  Config    : ep_max=300_mean
+  Stopped   : ep 89
+  Test Acc  : 0.8117  P: 0.8275  R: 0.8095  F1: 0.8067
+  FPS       : 130.26 frames/s
+  Val Acc   : 0.8679
+
+[Student+KD]
+  Config    : StandardKD_a=0.3_T=7.0
+  Stopped   : ep 41
+  Test Acc  : 0.8565  P: 0.8538  R: 0.8535  F1: 0.8526
+  FPS       : 126.31 frames/s
+  Val Acc   : 0.9292
+
+[Student+KD]
+  Config    : StandardKD_a=0.3_T=11.0
+  Stopped   : ep 53
+  Test Acc  : 0.8610  P: 0.8610  R: 0.8590  F1: 0.8582
+  FPS       : 124.80 frames/s
+  Val Acc   : 0.9151
+
+[Student+KD]
+  Config    : StandardKD_a=0.3_T=15.0
+  Stopped   : ep 48
+  Test Acc  : 0.8700  P: 0.8699  R: 0.8680  F1: 0.8685
+  FPS       : 134.92 frames/s
+  Val Acc   : 0.9198
+
+[Student+KD]
+  Config    : StandardKD_a=0.45_T=7.0
+  Stopped   : ep 49
+  Test Acc  : 0.8430  P: 0.8418  R: 0.8412  F1: 0.8401
+  FPS       : 117.84 frames/s
+  Val Acc   : 0.9292
+
+[Student+KD]
+  Config    : StandardKD_a=0.45_T=11.0
+  Stopped   : ep 50
+  Test Acc  : 0.8610  P: 0.8583  R: 0.8586  F1: 0.8581
+  FPS       : 123.78 frames/s
+  Val Acc   : 0.9151
+
+
+TRADE-OFF TABLE (Test Acc vs FPS)
+----------------------------------------------------------------------
+Scenario                                    Acc     F1      FPS
+----------------------------------------------------------------------
+Teacher (VideoMAE) ep_max=800            0.8924 0.8906   102.04
+Student (MobileViT) no KD ep_max=300_mean 0.8117 0.8067   130.26
+Student+KD StandardKD_a=0.3_T=7.0        0.8565 0.8526   126.31
+Student+KD StandardKD_a=0.3_T=11.0       0.8610 0.8582   124.80
+Student+KD StandardKD_a=0.3_T=15.0       0.8700 0.8685   134.92
+Student+KD StandardKD_a=0.45_T=7.0       0.8430 0.8401   117.84
+Student+KD StandardKD_a=0.45_T=11.0      0.8610 0.8581   123.78

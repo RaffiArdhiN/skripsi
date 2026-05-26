@@ -1,0 +1,30 @@
+# Mengabaikan folder konfigurasi bawaan OS/HPC di folder home
+.cache/
+.config/
+.ipython/
+.local/
+.nv/
+.python_history
+.gitconfig
+
+# Data Utama & Dataset Mentah
+data_skripsi/
+*.zip
+
+# Ekstensi file besar / biner (Model & Weights)
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Folder Output Eksperimen Lengkap (Checkpoints & Classified Videos)
+# Ini akan otomatis mengabaikan semua isi folder videomae_5e-5_raffi, teh_mutia, dll.
+output_model/*/checkpoint-*/
+output_model/*/classified_videos/
+output_model/*/final_model/
+
+# Python env & Jupyter
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
