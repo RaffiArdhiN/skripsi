@@ -1,0 +1,141 @@
+nohup: ignoring input
+==================================================
+Verifikasi distribusi label per split:
+
+TRAIN (1725 samples):
+label
+1_mengangguk           356
+4_menopang_kepala      355
+2_mengangkat_tangan    354
+3_menggunakan_hp       337
+5_menunduk             323
+
+VAL (212 samples):
+label
+1_mengangguk           44
+2_mengangkat_tangan    44
+4_menopang_kepala      43
+3_menggunakan_hp       41
+5_menunduk             40
+
+TEST (223 samples):
+label
+2_mengangkat_tangan    46
+4_menopang_kepala      46
+1_mengangguk           45
+3_menggunakan_hp       44
+5_menunduk             42
+==================================================
+Cek apakah distribusi antar split sudah proporsional!
+
+Memuat 9 baris hasil sebelumnya dari /home/coder/output_model/skenario_raffi/results/experiment_results.csv
+
+Skipping Skenario 1 — load dari checkpoint...
+Loading weights:   0%|          | 0/160 [00:00<?, ?it/s]Loading weights:  55%|█████▌    | 88/160 [00:00<00:00, 874.57it/s]Loading weights: 100%|██████████| 160/160 [00:00<00:00, 1331.62it/s]
+[transformers] [1mVideoMAEForVideoClassification LOAD REPORT[0m from: MCG-NJU/videomae-base
+Key                                                                  | Status     | 
+---------------------------------------------------------------------+------------+-
+decoder.decoder_layers.{0, 1, 2, 3}.output.dense.weight              | UNEXPECTED | 
+videomae.encoder.layer.{0...11}.attention.attention.q_bias           | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.intermediate.dense.bias          | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.layernorm_before.weight          | UNEXPECTED | 
+decoder.head.bias                                                    | UNEXPECTED | 
+videomae.encoder.layer.{0...11}.attention.attention.v_bias           | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.attention.output.dense.weight    | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.attention.attention.q_bias       | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.output.dense.bias                | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.layernorm_after.bias             | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.attention.output.dense.bias      | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.layernorm_after.weight           | UNEXPECTED | 
+encoder_to_decoder.weight                                            | UNEXPECTED | 
+decoder.norm.bias                                                    | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.attention.attention.value.weight | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.layernorm_before.bias            | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.intermediate.dense.weight        | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.attention.attention.key.weight   | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.attention.attention.query.weight | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.attention.attention.v_bias       | UNEXPECTED | 
+decoder.norm.weight                                                  | UNEXPECTED | 
+mask_token                                                           | UNEXPECTED | 
+decoder.head.weight                                                  | UNEXPECTED | 
+videomae.encoder.layer.{0...11}.attention.attention.query.bias       | MISSING    | 
+videomae.encoder.layer.{0...11}.attention.attention.value.bias       | MISSING    | 
+videomae.encoder.layer.{0...11}.attention.attention.key.bias         | MISSING    | 
+classifier.weight                                                    | MISSING    | 
+classifier.bias                                                      | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  Teacher loaded | test_acc=0.8924 | FPS=102.04
+Membebaskan VRAM teacher sebelum melatih student...
+Skipping Skenario 2 — load hasil Student baseline dari CSV...
+  Student baseline loaded | test_acc=0.8117 | FPS=130.26
+Reload teacher untuk KD grid search...
+Loading weights:   0%|          | 0/160 [00:00<?, ?it/s]Loading weights: 100%|██████████| 160/160 [00:00<00:00, 14708.15it/s]
+[transformers] [1mVideoMAEForVideoClassification LOAD REPORT[0m from: MCG-NJU/videomae-base
+Key                                                                  | Status     | 
+---------------------------------------------------------------------+------------+-
+decoder.decoder_layers.{0, 1, 2, 3}.output.dense.weight              | UNEXPECTED | 
+videomae.encoder.layer.{0...11}.attention.attention.q_bias           | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.intermediate.dense.bias          | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.layernorm_before.weight          | UNEXPECTED | 
+decoder.head.bias                                                    | UNEXPECTED | 
+videomae.encoder.layer.{0...11}.attention.attention.v_bias           | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.attention.output.dense.weight    | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.attention.attention.q_bias       | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.output.dense.bias                | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.layernorm_after.bias             | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.attention.output.dense.bias      | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.layernorm_after.weight           | UNEXPECTED | 
+encoder_to_decoder.weight                                            | UNEXPECTED | 
+decoder.norm.bias                                                    | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.attention.attention.value.weight | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.layernorm_before.bias            | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.intermediate.dense.weight        | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.attention.attention.key.weight   | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.attention.attention.query.weight | UNEXPECTED | 
+decoder.decoder_layers.{0, 1, 2, 3}.attention.attention.v_bias       | UNEXPECTED | 
+decoder.norm.weight                                                  | UNEXPECTED | 
+mask_token                                                           | UNEXPECTED | 
+decoder.head.weight                                                  | UNEXPECTED | 
+videomae.encoder.layer.{0...11}.attention.attention.query.bias       | MISSING    | 
+videomae.encoder.layer.{0...11}.attention.attention.value.bias       | MISSING    | 
+videomae.encoder.layer.{0...11}.attention.attention.key.bias         | MISSING    | 
+classifier.weight                                                    | MISSING    | 
+classifier.bias                                                      | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+
+============================================================
+SKENARIO 3: KD Grid Search — 2 temporal × 4 alpha × 3 T = 24 kombinasi
+============================================================
+  → 7/24 kombinasi KD sudah selesai sebelumnya.
+  → Best KD sejauh ini: StandardKD_a=0.3_T=15.0 (F1=0.8685)
+  → VRAM [awal Skenario 3]: allocated=0.32GB | reserved=0.65GB
+
+[1/24] StandardKD_a=0.3_T=7.0 — SKIP (sudah ada di experiment_results.csv)
+
+[2/24] StandardKD_a=0.3_T=11.0 — SKIP (sudah ada di experiment_results.csv)
+
+[3/24] StandardKD_a=0.3_T=15.0 — SKIP (sudah ada di experiment_results.csv)
+
+[4/24] StandardKD_a=0.45_T=7.0 — SKIP (sudah ada di experiment_results.csv)
+
+[5/24] StandardKD_a=0.45_T=11.0 — SKIP (sudah ada di experiment_results.csv)
+
+[6/24] StandardKD_a=0.45_T=15.0 — SKIP (sudah ada di experiment_results.csv)
+
+[7/24] StandardKD_a=0.6_T=7.0 — SKIP (sudah ada di experiment_results.csv)
+
+[8/24] StandardKD_a=0.6_T=11.0
+  → VRAM [sebelum combo 8]: allocated=0.32GB | reserved=0.65GB
+[h264 @ 0x6001bf2e72c0] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x6001bf2eb800] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x6001bf2eb800] missing picture in access unit with size 45147
+[h264 @ 0x6001c22ebcc0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x6001c22ebcc0] Error splitting the input into NAL units.
+[h264 @ 0x6001bf2e72c0] error while decoding MB 43 59, bytestream -7

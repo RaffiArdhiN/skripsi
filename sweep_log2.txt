@@ -2703,3 +2703,397 @@ Summary saved  → /home/coder/output_model/skenario_raffi/results/summary.txt
 [h264 @ 0x5fcee4620800] Invalid NAL unit size (0 > 45143).
 [h264 @ 0x5fcee4620800] Error splitting the input into NAL units.
 [h264 @ 0x5fcee6f8c180] error while decoding MB 43 59, bytestream -7
+  ep 14/300 | loss 0.5788 | val_acc 0.9104 | val_f1 0.9104
+[h264 @ 0x5fcee0292880] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee4bf5d00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee4bf5d00] missing picture in access unit with size 45147
+[h264 @ 0x5fcee57a8040] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee57a8040] Error splitting the input into NAL units.
+[h264 @ 0x5fcee0292880] error while decoding MB 43 59, bytestream -7
+  ep 15/300 | loss 0.4945 | val_acc 0.9104 | val_f1 0.9097
+[h264 @ 0x5fcee6d003c0] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcebe936700] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe936700] missing picture in access unit with size 45147
+[h264 @ 0x5fcee0292440] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee0292440] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6d003c0] error while decoding MB 43 59, bytestream -7
+  ep 16/300 | loss 0.4849 | val_acc 0.9009 | val_f1 0.9004
+[h264 @ 0x5fcee4d3b440] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee6d0f640] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6d0f640] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe8dc900] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe8dc900] Error splitting the input into NAL units.
+[h264 @ 0x5fcee4d3b440] error while decoding MB 43 59, bytestream -7
+  ep 17/300 | loss 0.4638 | val_acc 0.8868 | val_f1 0.8874
+[h264 @ 0x5fcee6d6b240] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee6cbe500] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6cbe500] missing picture in access unit with size 45147
+[h264 @ 0x5fcef1c28000] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcef1c28000] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6d6b240] error while decoding MB 43 59, bytestream -7
+  ep 18/300 | loss 0.4341 | val_acc 0.8962 | val_f1 0.8957
+[h264 @ 0x5fcee467db00] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee57dbbc0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee57dbbc0] missing picture in access unit with size 45147
+[h264 @ 0x5fcee46efb40] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee46efb40] Error splitting the input into NAL units.
+[h264 @ 0x5fcee467db00] error while decoding MB 43 59, bytestream -7
+  ep 19/300 | loss 0.4080 | val_acc 0.9104 | val_f1 0.9105
+[h264 @ 0x5fcee6c91040] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcebe86b200] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe86b200] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe8c4000] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe8c4000] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6c91040] error while decoding MB 43 59, bytestream -7
+  ep 20/300 | loss 0.3980 | val_acc 0.9009 | val_f1 0.9010
+[h264 @ 0x5fcee4bf4900] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee6041e00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6041e00] missing picture in access unit with size 45147
+[h264 @ 0x5fcee6d6c4c0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6d6c4c0] Error splitting the input into NAL units.
+[h264 @ 0x5fcee4bf4900] error while decoding MB 43 59, bytestream -7
+  ep 21/300 | loss 0.3625 | val_acc 0.8915 | val_f1 0.8907
+[h264 @ 0x5fcebe8ddbc0] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcebe86b200] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe86b200] missing picture in access unit with size 45147
+[h264 @ 0x5fcee7258c00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee7258c00] Error splitting the input into NAL units.
+[h264 @ 0x5fcebe8ddbc0] error while decoding MB 43 59, bytestream -7
+  ep 22/300 | loss 0.3400 | val_acc 0.9057 | val_f1 0.9054
+[h264 @ 0x5fcee6d7ee00] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcebe86adc0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe86adc0] missing picture in access unit with size 45147
+[h264 @ 0x5fcee6d2fa00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6d2fa00] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6d7ee00] error while decoding MB 43 59, bytestream -7
+  ep 23/300 | loss 0.3030 | val_acc 0.8915 | val_f1 0.8895
+[h264 @ 0x5fcee57f3d40] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee4c09d80] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee4c09d80] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe904000] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe904000] Error splitting the input into NAL units.
+[h264 @ 0x5fcee57f3d40] error while decoding MB 43 59, bytestream -7
+  ep 24/300 | loss 0.3055 | val_acc 0.9057 | val_f1 0.9054
+[h264 @ 0x5fcebe91a6c0] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee4bf5d00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee4bf5d00] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe902d40] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe902d40] Error splitting the input into NAL units.
+[h264 @ 0x5fcebe91a6c0] error while decoding MB 43 59, bytestream -7
+  ep 25/300 | loss 0.2922 | val_acc 0.9057 | val_f1 0.9058
+[h264 @ 0x5fcee6d4f080] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee6c92480] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6c92480] missing picture in access unit with size 45147
+[h264 @ 0x5fcee6fad600] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6fad600] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6d4f080] error while decoding MB 43 59, bytestream -7
+  ep 26/300 | loss 0.2744 | val_acc 0.9151 | val_f1 0.9146
+  → Best checkpoint disimpan (val_f1=0.9146)
+[h264 @ 0x5fcee7729600] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee550a300] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee550a300] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe9022c0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe9022c0] Error splitting the input into NAL units.
+[h264 @ 0x5fcee7729600] error while decoding MB 43 59, bytestream -7
+  ep 27/300 | loss 0.2883 | val_acc 0.8774 | val_f1 0.8741
+[h264 @ 0x5fcee6d62d00] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee4c09d80] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee4c09d80] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe9022c0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe9022c0] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6d62d00] error while decoding MB 43 59, bytestream -7
+  ep 28/300 | loss 0.2659 | val_acc 0.9057 | val_f1 0.9045
+[h264 @ 0x5fcee7259840] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee562c3c0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee562c3c0] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe8fe340] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe8fe340] Error splitting the input into NAL units.
+[h264 @ 0x5fcee7259840] error while decoding MB 43 59, bytestream -7
+  ep 29/300 | loss 0.2572 | val_acc 0.9009 | val_f1 0.9025
+[h264 @ 0x5fcebe90da80] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee54c4d80] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee54c4d80] missing picture in access unit with size 45147
+[h264 @ 0x5fcee6d1c100] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6d1c100] Error splitting the input into NAL units.
+[h264 @ 0x5fcebe90da80] error while decoding MB 43 59, bytestream -7
+  ep 30/300 | loss 0.2381 | val_acc 0.9151 | val_f1 0.9137
+[h264 @ 0x5fcebe902840] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee6041e00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6041e00] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe9076c0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe9076c0] Error splitting the input into NAL units.
+[h264 @ 0x5fcebe902840] error while decoding MB 43 59, bytestream -7
+  ep 31/300 | loss 0.2388 | val_acc 0.9057 | val_f1 0.9053
+[h264 @ 0x5fcee725bb80] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee6c92480] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6c92480] missing picture in access unit with size 45147
+[h264 @ 0x5fcee4620a40] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee4620a40] Error splitting the input into NAL units.
+[h264 @ 0x5fcee725bb80] error while decoding MB 43 59, bytestream -7
+  ep 32/300 | loss 0.2336 | val_acc 0.8632 | val_f1 0.8643
+[h264 @ 0x5fcebe8dc080] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee4c09d80] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee4c09d80] missing picture in access unit with size 45147
+[h264 @ 0x5fcee6d18e00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6d18e00] Error splitting the input into NAL units.
+[h264 @ 0x5fcebe8dc080] error while decoding MB 43 59, bytestream -7
+  ep 33/300 | loss 0.2371 | val_acc 0.8962 | val_f1 0.8944
+[h264 @ 0x5fcee6c81840] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee4a73bc0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee4a73bc0] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe8c4580] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe8c4580] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6c81840] error while decoding MB 43 59, bytestream -7
+  ep 34/300 | loss 0.2181 | val_acc 0.9198 | val_f1 0.9180
+  → Best checkpoint disimpan (val_f1=0.9180)
+[h264 @ 0x5fcebe91a600] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee6c92480] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6c92480] missing picture in access unit with size 45147
+[h264 @ 0x5fcee57a75c0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee57a75c0] Error splitting the input into NAL units.
+[h264 @ 0x5fcebe91a600] error while decoding MB 43 59, bytestream -7
+  ep 35/300 | loss 0.2183 | val_acc 0.9009 | val_f1 0.8994
+[h264 @ 0x5fcee6d30440] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee6c92480] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6c92480] missing picture in access unit with size 45147
+[h264 @ 0x5fcee46ecc80] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee46ecc80] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6d30440] error while decoding MB 43 59, bytestream -7
+  ep 36/300 | loss 0.2184 | val_acc 0.9057 | val_f1 0.9051
+[h264 @ 0x5fcebe919e80] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcebe86b200] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe86b200] missing picture in access unit with size 45147
+[h264 @ 0x5fcee6d11f00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6d11f00] Error splitting the input into NAL units.
+[h264 @ 0x5fcebe919e80] error while decoding MB 43 59, bytestream -7
+  ep 37/300 | loss 0.2065 | val_acc 0.9009 | val_f1 0.8982
+[h264 @ 0x5fcee6f8cb00] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee6041e00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6041e00] missing picture in access unit with size 45147
+[h264 @ 0x5fcee6fad140] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6fad140] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6f8cb00] error while decoding MB 43 59, bytestream -7
+  ep 38/300 | loss 0.2023 | val_acc 0.9057 | val_f1 0.9045
+[h264 @ 0x5fcee6d189c0] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee4635340] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee4635340] missing picture in access unit with size 45147
+[h264 @ 0x5fcee7335f40] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee7335f40] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6d189c0] error while decoding MB 43 59, bytestream -7
+  ep 39/300 | loss 0.1825 | val_acc 0.9057 | val_f1 0.9048
+[h264 @ 0x5fcee725cd40] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee4bf5d00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee4bf5d00] missing picture in access unit with size 45147
+[h264 @ 0x5fcee6d1cf00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6d1cf00] Error splitting the input into NAL units.
+[h264 @ 0x5fcee725cd40] error while decoding MB 43 59, bytestream -7
+  ep 40/300 | loss 0.1867 | val_acc 0.8868 | val_f1 0.8858
+[h264 @ 0x5fcee6d28a00] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcebe86adc0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe86adc0] missing picture in access unit with size 45147
+[h264 @ 0x5fcee6d52a40] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6d52a40] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6d28a00] error while decoding MB 43 59, bytestream -7
+  ep 41/300 | loss 0.1844 | val_acc 0.9057 | val_f1 0.9059
+[h264 @ 0x5fcee712bf80] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee57dbbc0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee57dbbc0] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe9022c0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe9022c0] Error splitting the input into NAL units.
+[h264 @ 0x5fcee712bf80] error while decoding MB 43 59, bytestream -7
+  ep 42/300 | loss 0.1712 | val_acc 0.9151 | val_f1 0.9141
+[h264 @ 0x5fcee725b600] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee4c09d80] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee4c09d80] missing picture in access unit with size 45147
+[h264 @ 0x5fcee73db6c0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee73db6c0] Error splitting the input into NAL units.
+[h264 @ 0x5fcee725b600] error while decoding MB 43 59, bytestream -7
+  ep 43/300 | loss 0.1676 | val_acc 0.9009 | val_f1 0.9001
+[h264 @ 0x5fcebe8dc080] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee54c4d80] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee54c4d80] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe8fe340] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe8fe340] Error splitting the input into NAL units.
+[h264 @ 0x5fcebe8dc080] error while decoding MB 43 59, bytestream -7
+  ep 44/300 | loss 0.1700 | val_acc 0.9104 | val_f1 0.9093
+[h264 @ 0x5fcee6cf6d00] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcebe86b200] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe86b200] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe8e30c0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe8e30c0] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6cf6d00] error while decoding MB 43 59, bytestream -7
+  ep 45/300 | loss 0.1663 | val_acc 0.8962 | val_f1 0.8947
+[h264 @ 0x5fcee60a7280] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee6041e00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6041e00] missing picture in access unit with size 45147
+[h264 @ 0x5fcee6fad300] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6fad300] Error splitting the input into NAL units.
+[h264 @ 0x5fcee60a7280] error while decoding MB 43 59, bytestream -7
+  ep 46/300 | loss 0.1684 | val_acc 0.8962 | val_f1 0.8945
+[h264 @ 0x5fcee6cf7840] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcebe86b200] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe86b200] missing picture in access unit with size 45147
+[h264 @ 0x5fcee0293100] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee0293100] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6cf7840] error while decoding MB 43 59, bytestream -7
+  ep 47/300 | loss 0.1631 | val_acc 0.8821 | val_f1 0.8817
+[h264 @ 0x5fcee718a900] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee6041e00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6041e00] missing picture in access unit with size 45147
+[h264 @ 0x5fcee467f3c0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee467f3c0] Error splitting the input into NAL units.
+[h264 @ 0x5fcee718a900] error while decoding MB 43 59, bytestream -7
+  ep 48/300 | loss 0.1565 | val_acc 0.8726 | val_f1 0.8714
+[h264 @ 0x5fcee6d1c080] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee6041e00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6041e00] missing picture in access unit with size 45147
+[h264 @ 0x5fcee4688a00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee4688a00] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6d1c080] error while decoding MB 43 59, bytestream -7
+  ep 49/300 | loss 0.1484 | val_acc 0.9009 | val_f1 0.8998
+[h264 @ 0x5fcee6cfdd80] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcebe936700] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe936700] missing picture in access unit with size 45147
+[h264 @ 0x5fcee55e6c00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee55e6c00] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6cfdd80] error while decoding MB 43 59, bytestream -7
+  ep 50/300 | loss 0.1556 | val_acc 0.8915 | val_f1 0.8914
+[h264 @ 0x5fcebe8d0e80] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee52a9540] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee52a9540] missing picture in access unit with size 45147
+[h264 @ 0x5fcee4689140] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee4689140] Error splitting the input into NAL units.
+[h264 @ 0x5fcebe8d0e80] error while decoding MB 43 59, bytestream -7
+  ep 51/300 | loss 0.1519 | val_acc 0.8821 | val_f1 0.8820
+[h264 @ 0x5fcebe919e80] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee550a300] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee550a300] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe8fef00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe8fef00] Error splitting the input into NAL units.
+[h264 @ 0x5fcebe919e80] error while decoding MB 43 59, bytestream -7
+  ep 52/300 | loss 0.1504 | val_acc 0.8632 | val_f1 0.8614
+[h264 @ 0x5fcee73dbb80] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee57dbbc0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee57dbbc0] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe8c4000] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe8c4000] Error splitting the input into NAL units.
+[h264 @ 0x5fcee73dbb80] error while decoding MB 43 59, bytestream -7
+  ep 53/300 | loss 0.1517 | val_acc 0.8962 | val_f1 0.8957
+[h264 @ 0x5fcee6fab880] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee52a9540] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee52a9540] missing picture in access unit with size 45147
+[h264 @ 0x5fcee6d12f80] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6d12f80] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6fab880] error while decoding MB 43 59, bytestream -7
+  ep 54/300 | loss 0.1491 | val_acc 0.8962 | val_f1 0.8942
+[h264 @ 0x5fcee6d31140] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee6d31140] error while decoding MB 43 59, bytestream -7
+[h264 @ 0x5fcee57dbbc0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee57dbbc0] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe923300] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe923300] Error splitting the input into NAL units.
+  ep 55/300 | loss 0.1446 | val_acc 0.9009 | val_f1 0.8994
+[h264 @ 0x5fcee4900200] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee54c4d80] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee54c4d80] missing picture in access unit with size 45147
+[h264 @ 0x5fcee6d134c0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6d134c0] Error splitting the input into NAL units.
+[h264 @ 0x5fcee4900200] error while decoding MB 43 59, bytestream -7
+  ep 56/300 | loss 0.1400 | val_acc 0.8821 | val_f1 0.8799
+[h264 @ 0x5fcee02929c0] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcebe86adc0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe86adc0] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe90e400] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe90e400] Error splitting the input into NAL units.
+[h264 @ 0x5fcee02929c0] error while decoding MB 43 59, bytestream -7
+  ep 57/300 | loss 0.1431 | val_acc 0.9009 | val_f1 0.8996
+[h264 @ 0x5fcee4d5fbc0] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcebe86adc0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe86adc0] missing picture in access unit with size 45147
+[h264 @ 0x5fcee6d19900] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6d19900] Error splitting the input into NAL units.
+[h264 @ 0x5fcee4d5fbc0] error while decoding MB 43 59, bytestream -7
+  ep 58/300 | loss 0.1409 | val_acc 0.8774 | val_f1 0.8765
+[h264 @ 0x5fcee6cfe980] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee550a300] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee550a300] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe8fe340] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe8fe340] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6cfe980] error while decoding MB 43 59, bytestream -7
+  ep 59/300 | loss 0.1379 | val_acc 0.8962 | val_f1 0.8955
+[h264 @ 0x5fcee725b680] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcebe86adc0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe86adc0] missing picture in access unit with size 45147
+[h264 @ 0x5fcee52ed8c0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee52ed8c0] Error splitting the input into NAL units.
+[h264 @ 0x5fcee725b680] error while decoding MB 43 59, bytestream -7
+  ep 60/300 | loss 0.1505 | val_acc 0.8962 | val_f1 0.8949
+[h264 @ 0x5fcee725b600] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcebe86b200] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe86b200] missing picture in access unit with size 45147
+[h264 @ 0x5fcee6c82580] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6c82580] Error splitting the input into NAL units.
+[h264 @ 0x5fcee725b600] error while decoding MB 43 59, bytestream -7
+  ep 61/300 | loss 0.1348 | val_acc 0.9009 | val_f1 0.8997
+[h264 @ 0x5fcee6d54480] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcebe86b200] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe86b200] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe8c4780] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe8c4780] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6d54480] error while decoding MB 43 59, bytestream -7
+  ep 62/300 | loss 0.1347 | val_acc 0.8774 | val_f1 0.8776
+[h264 @ 0x5fcee6d54c00] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee6d1d840] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6d1d840] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe920780] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe920780] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6d54c00] error while decoding MB 43 59, bytestream -7
+  ep 63/300 | loss 0.1369 | val_acc 0.8962 | val_f1 0.8945
+[h264 @ 0x5fcee4bf5040] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee4bf5040] error while decoding MB 43 59, bytestream -7
+[h264 @ 0x5fcee4bf5d00] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee4bf5d00] missing picture in access unit with size 45147
+[h264 @ 0x5fcee6d53040] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6d53040] Error splitting the input into NAL units.
+  ep 64/300 | loss 0.1275 | val_acc 0.8821 | val_f1 0.8821
+  → Early stopping di epoch 64
+  → Confusion matrix disimpan: cm_StandardKD_a=0.45_T=15.0.png
+  val_acc=0.9198 | test_acc=0.8700 | F1=0.8667 | FPS=134.41
+                     precision    recall  f1-score   support
+
+       1_mengangguk       0.80      0.80      0.80        45
+2_mengangkat_tangan       0.96      1.00      0.98        46
+   3_menggunakan_hp       0.93      0.89      0.91        44
+  4_menopang_kepala       0.81      0.93      0.87        46
+         5_menunduk       0.86      0.71      0.78        42
+
+           accuracy                           0.87       223
+          macro avg       0.87      0.87      0.87       223
+       weighted avg       0.87      0.87      0.87       223
+
+Results saved → /home/coder/output_model/skenario_raffi/results/experiment_results.csv
+Summary saved  → /home/coder/output_model/skenario_raffi/results/summary.txt
+
+[7/24] StandardKD_a=0.6_T=7.0
+[h264 @ 0x5fcee6c638c0] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcebe86adc0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe86adc0] missing picture in access unit with size 45147
+[h264 @ 0x5fcee6cfe180] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6cfe180] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6c638c0] error while decoding MB 43 59, bytestream -7
+  ep 1/300 | loss 5.8600 | val_acc 0.5094 | val_f1 0.4443
+  → Best checkpoint disimpan (val_f1=0.4443)
+[h264 @ 0x5fcee6cc3b40] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee4c0d740] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee4c0d740] missing picture in access unit with size 45147
+[h264 @ 0x5fcebe8fe8c0] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcebe8fe8c0] Error splitting the input into NAL units.
+[h264 @ 0x5fcee6cc3b40] error while decoding MB 43 59, bytestream -7
+  ep 2/300 | loss 4.6913 | val_acc 0.7028 | val_f1 0.6983
+  → Best checkpoint disimpan (val_f1=0.6983)
+[h264 @ 0x5fcee48fff00] error while decoding MB 27 47, bytestream -6
+[h264 @ 0x5fcee6d60100] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee6d60100] missing picture in access unit with size 45147
+[h264 @ 0x5fcee77ebb80] Invalid NAL unit size (0 > 45143).
+[h264 @ 0x5fcee77ebb80] Error splitting the input into NAL units.
+[h264 @ 0x5fcee48fff00] error while decoding MB 43 59, bytestream -7

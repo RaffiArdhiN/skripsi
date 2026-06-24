@@ -51,6 +51,20 @@ EXPERIMENT SUMMARY
   FPS       : 123.78 frames/s
   Val Acc   : 0.9151
 
+[Student+KD]
+  Config    : StandardKD_a=0.45_T=15.0
+  Stopped   : ep 64
+  Test Acc  : 0.8700  P: 0.8711  R: 0.8671  F1: 0.8667
+  FPS       : 134.41 frames/s
+  Val Acc   : 0.9198
+
+[Student+KD]
+  Config    : StandardKD_a=0.6_T=7.0
+  Stopped   : ep 47
+  Test Acc  : 0.8386  P: 0.8414  R: 0.8376  F1: 0.8368
+  FPS       : 127.37 frames/s
+  Val Acc   : 0.9198
+
 
 TRADE-OFF TABLE (Test Acc vs FPS)
 ----------------------------------------------------------------------
@@ -63,3 +77,5 @@ Student+KD StandardKD_a=0.3_T=11.0       0.8610 0.8582   124.80
 Student+KD StandardKD_a=0.3_T=15.0       0.8700 0.8685   134.92
 Student+KD StandardKD_a=0.45_T=7.0       0.8430 0.8401   117.84
 Student+KD StandardKD_a=0.45_T=11.0      0.8610 0.8581   123.78
+Student+KD StandardKD_a=0.45_T=15.0      0.8700 0.8667   134.41
+Student+KD StandardKD_a=0.6_T=7.0        0.8386 0.8368   127.37
