@@ -1,0 +1,33 @@
+======================================================================
+CPU FPS — PROOF OF CONCEPT EDGE DEVICE
+Device: cpu | Batch: 2 | Workers: 0
+======================================================================
+
+Scenario                                    FPS (GPU)  FPS (CPU)
+----------------------------------------------------------------------
+Teacher (VideoMAE) ep_max=800                  122.16      18.48
+Student (MobileViT) no KD ep_max=300_mean      126.69      19.98
+Student+KD StandardKD_a=0.3_T=7.0              136.56      19.97
+Student+KD StandardKD_a=0.3_T=11.0             125.93      19.94
+Student+KD StandardKD_a=0.3_T=15.0             122.18      20.03
+Student+KD StandardKD_a=0.45_T=7.0             100.18      20.25
+Student+KD StandardKD_a=0.45_T=11.0            121.23      21.05
+Student+KD StandardKD_a=0.45_T=15.0            125.75      20.00
+Student+KD StandardKD_a=0.6_T=7.0              114.90      19.50
+Student+KD StandardKD_a=0.6_T=11.0             115.29      19.53
+Student+KD StandardKD_a=0.6_T=15.0             118.75      19.88
+Student+KD PureKD_a=1.0_T=7.0                  127.06      20.83
+Student+KD PureKD_a=1.0_T=11.0                 117.15      19.54
+Student+KD PureKD_a=1.0_T=15.0                 136.10      20.09
+Student+KD StandardKD_LRCN_a=0.3_T=7.0         120.32      20.00
+Student+KD StandardKD_LRCN_a=0.3_T=11.0        121.25      20.10
+Student+KD StandardKD_LRCN_a=0.3_T=15.0        110.83      20.26
+Student+KD StandardKD_LRCN_a=0.45_T=7.0        126.81      19.61
+Student+KD StandardKD_LRCN_a=0.45_T=11.0       136.96      19.94
+Student+KD StandardKD_LRCN_a=0.45_T=15.0       123.00      18.40
+Student+KD StandardKD_LRCN_a=0.6_T=7.0         130.50      19.75
+Student+KD StandardKD_LRCN_a=0.6_T=11.0        131.62      19.86
+Student+KD StandardKD_LRCN_a=0.6_T=15.0        124.32      18.57
+Student+KD PureKD_LRCN_a=1.0_T=7.0             123.73      19.79
+Student+KD PureKD_LRCN_a=1.0_T=11.0            126.97      20.45
+Student+KD PureKD_LRCN_a=1.0_T=15.0            145.69      20.14

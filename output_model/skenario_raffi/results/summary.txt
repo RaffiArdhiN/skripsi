@@ -6,182 +6,182 @@ EXPERIMENT SUMMARY (FPS diukur ulang — kondisi seragam)
   Config    : ep_max=800
   Stopped   : ep 56
   Test Acc  : 0.8924  P: 0.8923  R: 0.8914  F1: 0.8906
-  FPS       : 134.33 frames/s
+  FPS       : 122.16 frames/s
   Val Acc   : 0.9198
 
 [Student (MobileViT) no KD]
   Config    : ep_max=300_mean
   Stopped   : ep 89
   Test Acc  : 0.8117  P: 0.8275  R: 0.8095  F1: 0.8067
-  FPS       : 133.77 frames/s
+  FPS       : 126.69 frames/s
   Val Acc   : 0.8679
 
 [Student+KD]
   Config    : StandardKD_a=0.3_T=7.0
   Stopped   : ep 41
   Test Acc  : 0.8565  P: 0.8538  R: 0.8535  F1: 0.8526
-  FPS       : 151.92 frames/s
+  FPS       : 136.56 frames/s
   Val Acc   : 0.9292
 
 [Student+KD]
   Config    : StandardKD_a=0.3_T=11.0
   Stopped   : ep 53
   Test Acc  : 0.8610  P: 0.8610  R: 0.8590  F1: 0.8582
-  FPS       : 136.35 frames/s
+  FPS       : 125.93 frames/s
   Val Acc   : 0.9151
 
 [Student+KD]
   Config    : StandardKD_a=0.3_T=15.0
   Stopped   : ep 48
   Test Acc  : 0.8700  P: 0.8699  R: 0.8680  F1: 0.8685
-  FPS       : 135.93 frames/s
+  FPS       : 122.18 frames/s
   Val Acc   : 0.9198
 
 [Student+KD]
   Config    : StandardKD_a=0.45_T=7.0
   Stopped   : ep 49
   Test Acc  : 0.8430  P: 0.8418  R: 0.8412  F1: 0.8401
-  FPS       : 141.03 frames/s
+  FPS       : 100.18 frames/s
   Val Acc   : 0.9292
 
 [Student+KD]
   Config    : StandardKD_a=0.45_T=11.0
   Stopped   : ep 50
   Test Acc  : 0.8610  P: 0.8583  R: 0.8586  F1: 0.8581
-  FPS       : 147.92 frames/s
+  FPS       : 121.23 frames/s
   Val Acc   : 0.9151
 
 [Student+KD]
   Config    : StandardKD_a=0.45_T=15.0
   Stopped   : ep 64
   Test Acc  : 0.8700  P: 0.8711  R: 0.8671  F1: 0.8667
-  FPS       : 150.42 frames/s
+  FPS       : 125.75 frames/s
   Val Acc   : 0.9198
 
 [Student+KD]
   Config    : StandardKD_a=0.6_T=7.0
   Stopped   : ep 47
   Test Acc  : 0.8386  P: 0.8414  R: 0.8376  F1: 0.8368
-  FPS       : 148.30 frames/s
+  FPS       : 114.90 frames/s
   Val Acc   : 0.9198
 
 [Student+KD]
   Config    : StandardKD_a=0.6_T=11.0
   Stopped   : ep 47
   Test Acc  : 0.8341  P: 0.8321  R: 0.8324  F1: 0.8319
-  FPS       : 140.25 frames/s
+  FPS       : 115.29 frames/s
   Val Acc   : 0.9245
 
 [Student+KD]
   Config    : StandardKD_a=0.6_T=15.0
   Stopped   : ep 38
   Test Acc  : 0.8161  P: 0.8193  R: 0.8134  F1: 0.8138
-  FPS       : 150.33 frames/s
+  FPS       : 118.75 frames/s
   Val Acc   : 0.9151
 
 [Student+KD]
   Config    : PureKD_a=1.0_T=7.0
   Stopped   : ep 43
   Test Acc  : 0.8655  P: 0.8659  R: 0.8636  F1: 0.8638
-  FPS       : 144.29 frames/s
+  FPS       : 127.06 frames/s
   Val Acc   : 0.9245
 
 [Student+KD]
   Config    : PureKD_a=1.0_T=11.0
   Stopped   : ep 43
   Test Acc  : 0.8296  P: 0.8330  R: 0.8262  F1: 0.8261
-  FPS       : 138.70 frames/s
+  FPS       : 117.15 frames/s
   Val Acc   : 0.8962
 
 [Student+KD]
   Config    : PureKD_a=1.0_T=15.0
   Stopped   : ep 138
   Test Acc  : 0.8744  P: 0.8720  R: 0.8719  F1: 0.8715
-  FPS       : 132.51 frames/s
+  FPS       : 136.10 frames/s
   Val Acc   : 0.9340
 
 [Student+KD]
   Config    : StandardKD_LRCN_a=0.3_T=7.0
   Stopped   : ep 67
   Test Acc  : 0.8251  P: 0.8322  R: 0.8245  F1: 0.8243
-  FPS       : 126.57 frames/s
+  FPS       : 120.32 frames/s
   Val Acc   : 0.9245
 
 [Student+KD]
   Config    : StandardKD_LRCN_a=0.3_T=11.0
   Stopped   : ep 42
   Test Acc  : 0.8430  P: 0.8529  R: 0.8422  F1: 0.8419
-  FPS       : 140.49 frames/s
+  FPS       : 121.25 frames/s
   Val Acc   : 0.9104
 
 [Student+KD]
   Config    : StandardKD_LRCN_a=0.3_T=15.0
   Stopped   : ep 68
   Test Acc  : 0.8655  P: 0.8628  R: 0.8634  F1: 0.8625
-  FPS       : 142.79 frames/s
+  FPS       : 110.83 frames/s
   Val Acc   : 0.9292
 
 [Student+KD]
   Config    : StandardKD_LRCN_a=0.45_T=7.0
   Stopped   : ep 109
   Test Acc  : 0.8879  P: 0.8917  R: 0.8857  F1: 0.8868
-  FPS       : 135.70 frames/s
+  FPS       : 126.81 frames/s
   Val Acc   : 0.9481
 
 [Student+KD]
   Config    : StandardKD_LRCN_a=0.45_T=11.0
   Stopped   : ep 59
   Test Acc  : 0.8072  P: 0.8116  R: 0.8058  F1: 0.8034
-  FPS       : 136.92 frames/s
+  FPS       : 136.96 frames/s
   Val Acc   : 0.9340
 
 [Student+KD]
   Config    : StandardKD_LRCN_a=0.45_T=15.0
   Stopped   : ep 57
   Test Acc  : 0.8341  P: 0.8356  R: 0.8334  F1: 0.8332
-  FPS       : 132.81 frames/s
+  FPS       : 123.00 frames/s
   Val Acc   : 0.9198
 
 [Student+KD]
   Config    : StandardKD_LRCN_a=0.6_T=7.0
   Stopped   : ep 79
   Test Acc  : 0.8565  P: 0.8583  R: 0.8560  F1: 0.8547
-  FPS       : 127.27 frames/s
+  FPS       : 130.50 frames/s
   Val Acc   : 0.9434
 
 [Student+KD]
   Config    : StandardKD_LRCN_a=0.6_T=11.0
   Stopped   : ep 46
   Test Acc  : 0.8475  P: 0.8519  R: 0.8462  F1: 0.8446
-  FPS       : 131.98 frames/s
+  FPS       : 131.62 frames/s
   Val Acc   : 0.9340
 
 [Student+KD]
   Config    : StandardKD_LRCN_a=0.6_T=15.0
   Stopped   : ep 82
   Test Acc  : 0.8520  P: 0.8529  R: 0.8498  F1: 0.8489
-  FPS       : 139.41 frames/s
+  FPS       : 124.32 frames/s
   Val Acc   : 0.9292
 
 [Student+KD]
   Config    : PureKD_LRCN_a=1.0_T=7.0
   Stopped   : ep 50
   Test Acc  : 0.8610  P: 0.8606  R: 0.8586  F1: 0.8577
-  FPS       : 133.65 frames/s
+  FPS       : 123.73 frames/s
   Val Acc   : 0.9292
 
 [Student+KD]
   Config    : PureKD_LRCN_a=1.0_T=11.0
   Stopped   : ep 61
   Test Acc  : 0.8520  P: 0.8557  R: 0.8498  F1: 0.8488
-  FPS       : 138.93 frames/s
+  FPS       : 126.97 frames/s
   Val Acc   : 0.9245
 
 [Student+KD]
   Config    : PureKD_LRCN_a=1.0_T=15.0
   Stopped   : ep 62
   Test Acc  : 0.8520  P: 0.8534  R: 0.8511  F1: 0.8493
-  FPS       : 130.11 frames/s
+  FPS       : 145.69 frames/s
   Val Acc   : 0.9434
 
 
@@ -189,29 +189,29 @@ TRADE-OFF TABLE (Test Acc vs FPS) — batch size & worker SERAGAM
 ----------------------------------------------------------------------
 Scenario                                      Acc     F1      FPS
 ----------------------------------------------------------------------
-Teacher (VideoMAE) ep_max=800              0.8924 0.8906   134.33
-Student (MobileViT) no KD ep_max=300_mean  0.8117 0.8067   133.77
-Student+KD StandardKD_a=0.3_T=7.0          0.8565 0.8526   151.92
-Student+KD StandardKD_a=0.3_T=11.0         0.8610 0.8582   136.35
-Student+KD StandardKD_a=0.3_T=15.0         0.8700 0.8685   135.93
-Student+KD StandardKD_a=0.45_T=7.0         0.8430 0.8401   141.03
-Student+KD StandardKD_a=0.45_T=11.0        0.8610 0.8581   147.92
-Student+KD StandardKD_a=0.45_T=15.0        0.8700 0.8667   150.42
-Student+KD StandardKD_a=0.6_T=7.0          0.8386 0.8368   148.30
-Student+KD StandardKD_a=0.6_T=11.0         0.8341 0.8319   140.25
-Student+KD StandardKD_a=0.6_T=15.0         0.8161 0.8138   150.33
-Student+KD PureKD_a=1.0_T=7.0              0.8655 0.8638   144.29
-Student+KD PureKD_a=1.0_T=11.0             0.8296 0.8261   138.70
-Student+KD PureKD_a=1.0_T=15.0             0.8744 0.8715   132.51
-Student+KD StandardKD_LRCN_a=0.3_T=7.0     0.8251 0.8243   126.57
-Student+KD StandardKD_LRCN_a=0.3_T=11.0    0.8430 0.8419   140.49
-Student+KD StandardKD_LRCN_a=0.3_T=15.0    0.8655 0.8625   142.79
-Student+KD StandardKD_LRCN_a=0.45_T=7.0    0.8879 0.8868   135.70
-Student+KD StandardKD_LRCN_a=0.45_T=11.0   0.8072 0.8034   136.92
-Student+KD StandardKD_LRCN_a=0.45_T=15.0   0.8341 0.8332   132.81
-Student+KD StandardKD_LRCN_a=0.6_T=7.0     0.8565 0.8547   127.27
-Student+KD StandardKD_LRCN_a=0.6_T=11.0    0.8475 0.8446   131.98
-Student+KD StandardKD_LRCN_a=0.6_T=15.0    0.8520 0.8489   139.41
-Student+KD PureKD_LRCN_a=1.0_T=7.0         0.8610 0.8577   133.65
-Student+KD PureKD_LRCN_a=1.0_T=11.0        0.8520 0.8488   138.93
-Student+KD PureKD_LRCN_a=1.0_T=15.0        0.8520 0.8493   130.11
+Teacher (VideoMAE) ep_max=800              0.8924 0.8906   122.16
+Student (MobileViT) no KD ep_max=300_mean  0.8117 0.8067   126.69
+Student+KD StandardKD_a=0.3_T=7.0          0.8565 0.8526   136.56
+Student+KD StandardKD_a=0.3_T=11.0         0.8610 0.8582   125.93
+Student+KD StandardKD_a=0.3_T=15.0         0.8700 0.8685   122.18
+Student+KD StandardKD_a=0.45_T=7.0         0.8430 0.8401   100.18
+Student+KD StandardKD_a=0.45_T=11.0        0.8610 0.8581   121.23
+Student+KD StandardKD_a=0.45_T=15.0        0.8700 0.8667   125.75
+Student+KD StandardKD_a=0.6_T=7.0          0.8386 0.8368   114.90
+Student+KD StandardKD_a=0.6_T=11.0         0.8341 0.8319   115.29
+Student+KD StandardKD_a=0.6_T=15.0         0.8161 0.8138   118.75
+Student+KD PureKD_a=1.0_T=7.0              0.8655 0.8638   127.06
+Student+KD PureKD_a=1.0_T=11.0             0.8296 0.8261   117.15
+Student+KD PureKD_a=1.0_T=15.0             0.8744 0.8715   136.10
+Student+KD StandardKD_LRCN_a=0.3_T=7.0     0.8251 0.8243   120.32
+Student+KD StandardKD_LRCN_a=0.3_T=11.0    0.8430 0.8419   121.25
+Student+KD StandardKD_LRCN_a=0.3_T=15.0    0.8655 0.8625   110.83
+Student+KD StandardKD_LRCN_a=0.45_T=7.0    0.8879 0.8868   126.81
+Student+KD StandardKD_LRCN_a=0.45_T=11.0   0.8072 0.8034   136.96
+Student+KD StandardKD_LRCN_a=0.45_T=15.0   0.8341 0.8332   123.00
+Student+KD StandardKD_LRCN_a=0.6_T=7.0     0.8565 0.8547   130.50
+Student+KD StandardKD_LRCN_a=0.6_T=11.0    0.8475 0.8446   131.62
+Student+KD StandardKD_LRCN_a=0.6_T=15.0    0.8520 0.8489   124.32
+Student+KD PureKD_LRCN_a=1.0_T=7.0         0.8610 0.8577   123.73
+Student+KD PureKD_LRCN_a=1.0_T=11.0        0.8520 0.8488   126.97
+Student+KD PureKD_LRCN_a=1.0_T=15.0        0.8520 0.8493   145.69
