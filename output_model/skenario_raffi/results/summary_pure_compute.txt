@@ -1,0 +1,40 @@
+==========================================================================================
+PERBANDINGAN: FPS END-TO-END (pipeline+model) vs PURE COMPUTE (model saja)
+==========================================================================================
+
+Scenario                                   FPS GPU   FPS CPU  Pure GPU  Pure CPU
+------------------------------------------------------------------------------------------
+Teacher (VideoMAE) ep_max=800               122.16     18.48   1673.79     26.69
+Student (MobileViT) no KD ep_max=300_mean    126.69     19.98   3350.54     31.65
+Student+KD StandardKD_a=0.3_T=7.0           136.56     19.97   3347.25     32.10
+Student+KD StandardKD_a=0.3_T=11.0          125.93     19.94   3346.84     31.44
+Student+KD StandardKD_a=0.3_T=15.0          122.18     20.03   3346.98     31.59
+Student+KD StandardKD_a=0.45_T=7.0          100.18     20.25   3346.49     31.22
+Student+KD StandardKD_a=0.45_T=11.0         121.23     21.05   3346.31     31.43
+Student+KD StandardKD_a=0.45_T=15.0         125.75     20.00   3343.94     31.38
+Student+KD StandardKD_a=0.6_T=7.0           114.90     19.50   3344.26     31.47
+Student+KD StandardKD_a=0.6_T=11.0          115.29     19.53   3343.31     31.26
+Student+KD StandardKD_a=0.6_T=15.0          118.75     19.88   3341.82     31.50
+Student+KD PureKD_a=1.0_T=7.0               127.06     20.83   3343.27     31.41
+Student+KD PureKD_a=1.0_T=11.0              117.15     19.54   3343.17     31.22
+Student+KD PureKD_a=1.0_T=15.0              136.10     20.09   3346.75     31.48
+Student+KD StandardKD_LRCN_a=0.3_T=7.0      120.32     20.00   3329.94     31.37
+Student+KD StandardKD_LRCN_a=0.3_T=11.0     121.25     20.10   3330.94     31.56
+Student+KD StandardKD_LRCN_a=0.3_T=15.0     110.83     20.26   3329.89     31.43
+Student+KD StandardKD_LRCN_a=0.45_T=7.0     126.81     19.61   3328.36     31.33
+Student+KD StandardKD_LRCN_a=0.45_T=11.0    136.96     19.94   3328.22     31.41
+Student+KD StandardKD_LRCN_a=0.45_T=15.0    123.00     18.40   3327.08     31.65
+Student+KD StandardKD_LRCN_a=0.6_T=7.0      130.50     19.75   3327.41     31.58
+Student+KD StandardKD_LRCN_a=0.6_T=11.0     131.62     19.86   3327.64     31.21
+Student+KD StandardKD_LRCN_a=0.6_T=15.0     124.32     18.57   3326.35     31.34
+Student+KD PureKD_LRCN_a=1.0_T=7.0          123.73     19.79   3330.98     31.43
+Student+KD PureKD_LRCN_a=1.0_T=11.0         126.97     20.45   3330.84     31.40
+Student+KD PureKD_LRCN_a=1.0_T=15.0         145.69     20.14   3330.07     31.31
+
+
+RASIO TEACHER vs RATA-RATA STUDENT-FAMILY (parameter: 94.2M vs ~5.7M, 16.5x)
+------------------------------------------------------------------------------------------
+End-to-end GPU       Teacher=  122.16  Student_avg=  124.39  Rasio=1.02x
+End-to-end CPU       Teacher=   18.48  Student_avg=   19.90  Rasio=1.08x
+Pure compute GPU     Teacher= 1673.79  Student_avg= 3337.55  Rasio=1.99x
+Pure compute CPU     Teacher=   26.69  Student_avg=   31.45  Rasio=1.18x
